@@ -1068,6 +1068,8 @@ details[open] .faq-body > p { padding-bottom: 24px; }
 .footer-brand { display: grid; gap: 14px; }
 .footer-brand img { width: 150px; filter: brightness(0) invert(1); opacity: .9; }
 .footer-brand p { margin: 0; font-size: .92rem; color: var(--subtle); line-height: 1.5; }
+.footer-about { max-width: 44ch; }
+.footer-about a { color: var(--amber); font-weight: 600; }
 .footer-nav { display: flex; flex-wrap: wrap; gap: 18px; font-size: .88rem; font-weight: 600; color: var(--muted); }
 .footer-nav a:hover { color: var(--amber); }
 .footer-contact { display: grid; gap: 14px; justify-items: end; }
