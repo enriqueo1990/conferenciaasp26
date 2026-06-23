@@ -70,7 +70,7 @@
   --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* — escala fluida — */
-  --step-hero: clamp(2.85rem, 1.4rem + 6.4vw, 6.6rem);
+  --step-hero: clamp(2.6rem, 1.3rem + 5vw, 5.6rem);
   --step-h2:   clamp(2rem, 1.3rem + 3.1vw, 3.6rem);
   --step-h3:   clamp(1.3rem, 1.12rem + 0.8vw, 1.7rem);
   --step-body: clamp(1.02rem, 0.98rem + 0.22vw, 1.18rem);
@@ -375,11 +375,16 @@ em { font-style: italic; }
   margin: 0;
   font-size: var(--step-hero);
   font-weight: 800;
-  line-height: 0.92;
-  letter-spacing: -0.005em;
+  line-height: 0.88;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
 }
 .hero h1 span { display: block; }
+.hero h1 .hx-sm {
+  font-size: .58em;
+  font-weight: 700;
+  letter-spacing: .005em;
+}
 .hero h1 .accent {
   background: linear-gradient(180deg, var(--amber-bright), var(--amber-deep));
   -webkit-background-clip: text;
