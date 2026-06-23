@@ -8,7 +8,7 @@ const data = {
     {
       name: "Cristian Palomares",
       image: "cristian-palomares.jpg",
-      focus: "Ministerio pastoral · consejería bíblica",
+      focus: "Pastoral y consejería bíblica",
       bio: "Pastor con veinte años de trayectoria. Preside ABRA e integra el consejo de Ante Su Palabra. Bachiller en Teología por el SBF y cursa una Maestría en Estudios Teológicos."
     },
     {
@@ -20,7 +20,7 @@ const data = {
     {
       name: "Dardo Leandi",
       image: "dardo-leandi.webp",
-      focus: "Iglesia local · sana doctrina",
+      focus: "Iglesia local y sana doctrina",
       bio: "Pastor de la Iglesia Bautista Misionera de la C.A.B.A. y miembro del consejo de Ante Su Palabra. Sirve en la promoción de la sana doctrina y la edificación de iglesias locales."
     },
     {
