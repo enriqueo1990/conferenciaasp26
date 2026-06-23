@@ -587,7 +587,7 @@ em { font-style: italic; }
   border-block: 1px solid var(--hairline-soft);
 }
 .verse blockquote {
-  max-width: 22ch;
+  max-width: min(1060px, 100%);
   margin: 0 auto;
   text-align: center;
 }
@@ -1113,6 +1113,8 @@ details[open] .faq-body > p { padding-bottom: 24px; }
   }
   .hero-scroll { display: none; }
 
+  .verse blockquote { max-width: 34ch; }
+
   .purpose-body,
   .speakers-grid,
   .schedule-grid,
@@ -1125,6 +1127,7 @@ details[open] .faq-body > p { padding-bottom: 24px; }
 
 @media (max-width: 560px) {
   .speakers-grid { grid-template-columns: 1fr; }
+  .verse blockquote { max-width: 24ch; }
   .hero-fire { right: -40%; width: 92%; opacity: .3; }
   .hero-actions .button { width: 100%; }
   .countdown-grid { gap: 4px; }
