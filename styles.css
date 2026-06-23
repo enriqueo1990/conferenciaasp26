@@ -1056,24 +1056,69 @@ details[open] .faq-body > p { padding-bottom: 24px; }
 .site-footer {
   margin-top: var(--section);
   border-top: 1px solid var(--hairline-soft);
-  background: linear-gradient(180deg, transparent, rgba(124, 47, 30, .08));
+  background: linear-gradient(180deg, transparent, rgba(124, 47, 30, .1));
 }
-.footer-inner {
+.footer-top {
   display: grid;
-  grid-template-columns: 1fr auto auto;
-  align-items: center;
-  gap: clamp(24px, 4vw, 60px);
-  padding: clamp(2.4rem, 4vw, 3.5rem) 0;
+  grid-template-columns: 1.7fr 1fr 1.1fr;
+  gap: clamp(28px, 5vw, 72px);
+  align-items: start;
+  padding: clamp(2.8rem, 5vw, 4.2rem) 0 clamp(2rem, 3vw, 2.8rem);
 }
-.footer-brand { display: grid; gap: 14px; }
-.footer-brand img { width: 150px; filter: brightness(0) invert(1); opacity: .9; }
-.footer-brand p { margin: 0; font-size: .92rem; color: var(--subtle); line-height: 1.5; }
-.footer-about { max-width: 44ch; }
-.footer-about a { color: var(--amber); font-weight: 600; }
-.footer-nav { display: flex; flex-wrap: wrap; gap: 18px; font-size: .88rem; font-weight: 600; color: var(--muted); }
-.footer-nav a:hover { color: var(--amber); }
-.footer-contact { display: grid; gap: 14px; justify-items: end; }
-.footer-contact > a:first-child { color: var(--amber); font-weight: 600; font-size: .92rem; }
+.footer-brand { display: grid; gap: 16px; align-content: start; }
+.footer-logo {
+  width: 128px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  opacity: .8;
+}
+.footer-tagline {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.35;
+  color: var(--text);
+}
+.footer-about {
+  margin: 0;
+  max-width: 42ch;
+  font-size: .9rem;
+  line-height: 1.6;
+  color: var(--subtle);
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.footer-h {
+  margin-bottom: 4px;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+.footer-col a:not(.button) {
+  font-size: .94rem;
+  color: var(--muted);
+  transition: color .2s ease;
+}
+.footer-col a:not(.button):hover { color: var(--amber); }
+.footer-cta { margin-top: 8px; }
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding: 22px 0 44px;
+  border-top: 1px solid var(--hairline-soft);
+  font-size: .82rem;
+  color: var(--subtle);
+}
+.footer-bottom p { margin: 0; }
 
 /* ============================================================
    CTA FIJO (solo mobile)
@@ -1157,8 +1202,7 @@ details[open] .faq-body > p { padding-bottom: 24px; }
   .info-layout { grid-template-columns: 1fr; }
 
   .speakers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .footer-inner { grid-template-columns: 1fr; gap: 28px; }
-  .footer-contact { justify-items: start; }
+  .footer-top { grid-template-columns: 1fr; gap: 32px; }
 }
 
 @media (max-width: 560px) {
