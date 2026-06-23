@@ -1076,6 +1076,40 @@ details[open] .faq-body > p { padding-bottom: 24px; }
 .footer-contact > a:first-child { color: var(--amber); font-weight: 600; font-size: .92rem; }
 
 /* ============================================================
+   CTA FIJO (solo mobile)
+   ============================================================ */
+.sticky-cta {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 45;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 56px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--amber-bright), var(--amber));
+  color: #1a1206;
+  font-family: var(--font-sans);
+  font-size: 1.02rem;
+  font-weight: 700;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .45), 0 8px 22px rgba(201, 121, 26, .38);
+  transform: translateY(160%);
+  transition: transform .35s cubic-bezier(.2, .7, .2, 1);
+}
+.sticky-cta.is-visible { transform: translateY(0); }
+.sticky-cta .button-arrow {
+  width: 18px; height: 18px;
+  fill: none; stroke: currentColor;
+  stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+}
+@media (max-width: 760px) {
+  .sticky-cta { display: inline-flex; }
+}
+
+/* ============================================================
    RESPONSIVE
    ============================================================ */
 @media (max-width: 940px) {

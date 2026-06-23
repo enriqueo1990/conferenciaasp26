@@ -335,6 +335,9 @@ function initScrollSpy() {
 function initScrollChrome() {
   const header = document.querySelector("[data-header]");
   const progress = document.querySelector("[data-progress]");
+  const stickyCta = document.querySelector("[data-sticky-cta]");
+  const hero = document.querySelector(".hero");
+  const register = document.querySelector("#registro");
   let ticking = false;
   const update = () => {
     const y = window.scrollY;
@@ -342,6 +345,12 @@ function initScrollChrome() {
     if (progress) {
       const max = document.documentElement.scrollHeight - window.innerHeight;
       progress.style.transform = `scaleX(${max > 0 ? Math.min(y / max, 1) : 0})`;
+    }
+    if (stickyCta && hero) {
+      // visible tras pasar el hero, oculto al llegar a Registro (evita duplicar el CTA)
+      const past = y > hero.offsetHeight - 140;
+      const beforeRegister = !register || y + window.innerHeight < register.offsetTop + 80;
+      stickyCta.classList.toggle("is-visible", past && beforeRegister);
     }
     ticking = false;
   };
