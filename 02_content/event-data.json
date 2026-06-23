@@ -1,0 +1,122 @@
+{
+  "event": {
+    "event_name": "Por el Poder del Espíritu Santo",
+    "event_type": "Conferencia Nacional",
+    "year": "2026",
+    "dates": "11 y 12 de septiembre",
+    "location_general": "CABA, Argentina",
+    "venue": "Iglesia Bautista Misionera de la C.A.B.A.",
+    "address": "Lascano 2659, C1417, Ciudad Autónoma de Buenos Aires",
+    "modality": "Presencial",
+    "audience": "Abierta al público general",
+    "price": "$40.000 ARS",
+    "includes": "Almuerzo",
+    "capacity": "Cupos limitados",
+    "registration": "https://www.entrada27.com.ar/e/asp2026",
+    "contact": "contacto@antesupalabra.com"
+  },
+  "speakers": [
+    {
+      "name": "Cristian Palomares",
+      "image": "cristian-palomares.jpg",
+      "short_bio": "Pastor con veinte años de trayectoria en el ministerio pastoral. Preside ABRA e integra el consejo de Ante Su Palabra. Es bachiller en Teología y Ministerio Pastoral por el SBF, posee una diplomatura en Consejería Bíblica y actualmente cursa una Maestría en Estudios Teológicos en el Seminario Bíblico William Carey. Vive junto a su esposa Miriam y sus tres hijos."
+    },
+    {
+      "name": "Greg Travis",
+      "image": "greg-travis.jpeg",
+      "short_bio": "Miembro del concilio de Coalición por el Evangelio. Sirve como misionero de SERVE y es plantador y pastor de la Iglesia Bíblica Reformada Denton, Texas. Tiene una maestría por Dallas Theological Seminary y su pasión es ayudar a pastores, plantadores e iglesias locales a ser más saludables. Está casado con Carolina y tienen tres hijos."
+    },
+    {
+      "name": "Dardo Leandi",
+      "image": "dardo-leandi.webp",
+      "short_bio": "Pastor de la Iglesia Bautista Misionera de la Ciudad Autónoma de Buenos Aires y miembro del consejo de Ante Su Palabra. Sirve en la promoción de la sana doctrina y en la edificación de iglesias locales en Argentina."
+    },
+    {
+      "name": "Samuel E. Masters",
+      "image": "samuel-masters.jpeg",
+      "short_bio": "Miembro del concilio de Coalición por el Evangelio. Vive en Argentina desde hace más de tres décadas. Es pastor fundador de la Iglesia Bíblica Bautista Crecer, presidente de The Crecer Foundation y rector del Seminario Bíblico William Carey. Tiene formación en Reformed Theological Seminary y un doctorado en Biblical Spirituality por Southern Baptist Theological Seminary."
+    },
+    {
+      "name": "Ricardo Daglio",
+      "image": "ricardo-daglio.jpeg",
+      "short_bio": "Pastor con amplia trayectoria ministerial en Uruguay y Argentina. Sirvió en la revitalización de una iglesia local en Uruguay y actualmente sirve en la Iglesia Bíblica Villa Regina y en la plantación de una nueva iglesia en General Roca. Integra la junta directiva de Ante Su Palabra y posee una Maestría en Ministerio Bíblico por The Master’s Seminary."
+    },
+    {
+      "name": "Osvaldo Fuentes",
+      "image": "osvaldo-fuentes.webp",
+      "short_bio": "Oriundo de Chile, sirve en Iglesia Bíblica Berea en North Hollywood, California, y se entrena en The Master’s Seminary, donde también forma parte del equipo administrativo de los programas en español. Ha servido como anciano en Iglesia Vida Nueva en Rafaela, Argentina, y ha colaborado en la fundación de iglesias. Está casado con Marina y tienen dos hijos."
+    }
+  ],
+  "schedule": {
+    "Viernes 11": [
+      {
+        "time": "17:00–18:00",
+        "type": "Recepción",
+        "title": "",
+        "speaker": ""
+      },
+      {
+        "time": "18:00–19:30",
+        "type": "Bienvenida / Alabanza / Plenaria 1",
+        "title": "El Espíritu Santo y las Escrituras",
+        "speaker": "Pr. Ricardo Daglio",
+        "notes": "Bienvenida: Pr. Dardo Leandi. Alabanza: 3 canciones."
+      },
+      {
+        "time": "Después de plenaria 1",
+        "type": "Refrigerio y stands",
+        "title": "",
+        "speaker": ""
+      },
+      {
+        "time": "20:00–21:30",
+        "type": "Alabanza / Plenaria 2",
+        "title": "La espiritualidad Bíblica",
+        "speaker": "Pr. Sam Masters",
+        "notes": "Alabanza: 2 canciones."
+      }
+    ],
+    "Sábado 12": [
+      {
+        "time": "09:00–10:30",
+        "type": "Alabanza / Plenaria 3",
+        "title": "Intelectualidad & El Espíritu",
+        "speaker": "Pr. Osvaldo Fuentes",
+        "notes": "Alabanza: 3 canciones."
+      },
+      {
+        "time": "11:00–12:30",
+        "type": "Alabanza / Plenaria 4",
+        "title": "El poder del Espíritu Santo en el evangelismo",
+        "speaker": "Pr. Dardo Leandi",
+        "notes": "Alabanza: 2 canciones."
+      },
+      {
+        "time": "Entre plenarias",
+        "type": "Almuerzo y stands",
+        "title": "",
+        "speaker": ""
+      },
+      {
+        "time": "14:30–16:00",
+        "type": "Alabanza / Plenaria 5",
+        "title": "El Espíritu en la vida y ministerio pastoral",
+        "speaker": "Pr. Greg Travis",
+        "notes": "Alabanza: 2 canciones."
+      },
+      {
+        "time": "16:30–18:00",
+        "type": "Alabanza / Plenaria 6",
+        "title": "El modelo ministerial de Cristo para la iglesia",
+        "speaker": "Pr. Cristian Palomares",
+        "notes": "Alabanza: 3 canciones."
+      },
+      {
+        "time": "Cierre",
+        "type": "Tiempo de gratitud",
+        "title": "",
+        "speaker": ""
+      }
+    ]
+  }
+}
