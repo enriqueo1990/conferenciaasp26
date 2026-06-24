@@ -9,19 +9,19 @@ const data = {
       name: "Cristian Palomares",
       image: "cristian-palomares.jpg",
       focus: "Pastoral y consejería bíblica",
-      bio: "Pastor con veinte años de trayectoria. Preside ABRA e integra el consejo de Ante Su Palabra. Bachiller en Teología por el SBF y cursa una Maestría en Estudios Teológicos."
+      bio: "Pastor con veinte años de trayectoria. Preside ABRA y es miembro del consejo pastoral de ASP. Bachiller en Teología por el SBF y cursa una Maestría en Estudios Teológicos."
     },
     {
       name: "Greg Travis",
       image: "greg-travis.jpeg",
       focus: "Plantación y salud de iglesias",
-      bio: "Miembro del concilio de Coalición por el Evangelio. Misionero de SERVE y pastor de la Iglesia Bíblica Reformada de Denton, Texas. Ayuda a pastores e iglesias a ser más saludables."
+      bio: "Miembro del consejo pastoral de ASP y del concilio de Coalición por el Evangelio. Misionero de SERVE y pastor de la Iglesia Bíblica Reformada de Denton, Texas."
     },
     {
       name: "Dardo Leandi",
       image: "dardo-leandi.jpg",
       focus: "Iglesia local y sana doctrina",
-      bio: "Pastor de la Iglesia Bautista Misionera de C.A.B.A. y miembro del consejo de Ante Su Palabra. Sirve en la promoción de la sana doctrina y la edificación de iglesias locales."
+      bio: "Pastor de la Iglesia Bautista Misionera de C.A.B.A. y miembro del consejo pastoral de ASP. Sirve en la promoción de la sana doctrina y la edificación de iglesias locales."
     },
     {
       name: "Samuel E. Masters",
@@ -33,7 +33,7 @@ const data = {
       name: "Ricardo Daglio",
       image: "ricardo-daglio.jpeg",
       focus: "Revitalización y plantación",
-      bio: "Pastor con amplia trayectoria en Uruguay y Argentina. Sirve en la Iglesia Bíblica Villa Regina y en la plantación de una nueva iglesia en General Roca. Integra la junta de Ante Su Palabra."
+      bio: "Pastor con amplia trayectoria en Uruguay y Argentina, y miembro del consejo pastoral de ASP. Sirve en la Iglesia Bíblica Villa Regina y en la plantación de una nueva iglesia en General Roca."
     },
     {
       name: "Osvaldo Fuentes",
@@ -54,15 +54,14 @@ const data = {
           type: "Bienvenida · Alabanza · Plenaria 1",
           title: "El Espíritu Santo y las Escrituras",
           speaker: "Pr. Ricardo Daglio",
-          notes: "Bienvenida: Pr. Dardo Leandi · Alabanza: 3 canciones"
+          notes: "Bienvenida: Pr. Dardo Leandi"
         },
         { time: "—", type: "Refrigerio y stands", rest: true },
         {
           time: "20:00",
           type: "Alabanza · Plenaria 2",
           title: "La espiritualidad bíblica",
-          speaker: "Pr. Samuel E. Masters",
-          notes: "Alabanza: 2 canciones"
+          speaker: "Pr. Samuel E. Masters"
         }
       ]
     },
@@ -74,30 +73,26 @@ const data = {
           time: "09:00",
           type: "Alabanza · Plenaria 3",
           title: "Intelectualidad y el Espíritu",
-          speaker: "Pr. Osvaldo Fuentes",
-          notes: "Alabanza: 3 canciones"
+          speaker: "Pr. Osvaldo Fuentes"
         },
         {
           time: "11:00",
           type: "Alabanza · Plenaria 4",
           title: "La llenura del Espíritu",
-          speaker: "Pr. Dardo Leandi",
-          notes: "Alabanza: 2 canciones"
+          speaker: "Pr. Dardo Leandi"
         },
         { time: "—", type: "Almuerzo y stands", rest: true },
         {
           time: "14:30",
           type: "Alabanza · Plenaria 5",
           title: "El Espíritu en la vida y el ministerio pastoral",
-          speaker: "Pr. Greg Travis",
-          notes: "Alabanza: 2 canciones"
+          speaker: "Pr. Greg Travis"
         },
         {
           time: "16:30",
           type: "Alabanza · Plenaria 6",
           title: "El modelo ministerial de Cristo para la iglesia",
-          speaker: "Pr. Cristian Palomares",
-          notes: "Alabanza: 3 canciones"
+          speaker: "Pr. Cristian Palomares"
         },
         { time: "Cierre", type: "Tiempo de gratitud", rest: true }
       ]
