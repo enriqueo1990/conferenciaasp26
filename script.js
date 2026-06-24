@@ -19,7 +19,7 @@ const data = {
     },
     {
       name: "Dardo Leandi",
-      image: "dardo-leandi.webp",
+      image: "dardo-leandi.jpg",
       focus: "Iglesia local y sana doctrina",
       bio: "Pastor de la Iglesia Bautista Misionera de la C.A.B.A. y miembro del consejo de Ante Su Palabra. Sirve en la promoción de la sana doctrina y la edificación de iglesias locales."
     },
@@ -37,7 +37,7 @@ const data = {
     },
     {
       name: "Osvaldo Fuentes",
-      image: "osvaldo-fuentes.webp",
+      image: "osvaldo-fuentes.jpg",
       focus: "Entrenamiento bíblico",
       bio: "Oriundo de Chile, sirve en la Iglesia Bíblica Berea de North Hollywood, California, y se entrena en The Master's Seminary, donde acompaña los programas en español."
     }
