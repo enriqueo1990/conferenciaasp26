@@ -38,8 +38,8 @@ const data = {
     {
       name: "Osvaldo Fuentes",
       image: "osvaldo-fuentes.jpg",
-      focus: "Entrenamiento bíblico",
-      bio: "Oriundo de Chile, sirve en la Iglesia Bíblica Berea de North Hollywood, California, y se entrena en The Master's Seminary, donde acompaña los programas en español."
+      focus: "Formación bíblica y pastoral",
+      bio: "Presidente del Southern Baptist School (SBS) y pastor asociado en la Iglesia Bautista Misionera de C.A.B.A."
     }
   ],
 
