@@ -778,6 +778,77 @@ em { font-style: italic; }
 }
 
 /* ============================================================
+   ALABANZA / PARA SU GLORIA
+   ============================================================ */
+.worship { padding: var(--section) 0 0; }
+.worship-feature {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: clamp(440px, 50vw, 560px);
+  overflow: hidden;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.worship-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 62% 28%;
+}
+.worship-feature::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,
+    rgba(10, 11, 15, .96) 0%,
+    rgba(10, 11, 15, .86) 34%,
+    rgba(10, 11, 15, .46) 66%,
+    rgba(10, 11, 15, .12) 100%);
+}
+.worship-content {
+  position: relative;
+  z-index: 1;
+  max-width: 540px;
+  padding: clamp(30px, 4.5vw, 58px);
+}
+.worship-logo {
+  width: clamp(132px, 16vw, 170px);
+  height: auto;
+  margin-bottom: clamp(20px, 3vw, 30px);
+  filter: drop-shadow(0 6px 18px rgba(0, 0, 0, .55));
+}
+.worship-desc {
+  margin: 0;
+  font-size: var(--step-lede);
+  line-height: 1.5;
+  color: var(--text);
+}
+.worship-mission {
+  margin-top: 24px;
+  padding-top: 22px;
+  border-top: 1px solid var(--hairline);
+}
+.worship-mission-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+.worship-mission p {
+  margin: 0;
+  font-size: .98rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* ============================================================
    CRONOGRAMA
    ============================================================ */
 .schedule { padding: var(--section) 0 0; }
@@ -1206,6 +1277,19 @@ details[open] .faq-body > p { padding-bottom: 24px; }
 
   .speakers-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .footer-top { grid-template-columns: 1fr; gap: 32px; }
+
+  .worship-feature {
+    align-items: flex-end;
+    min-height: clamp(460px, 88vw, 620px);
+  }
+  .worship-feature::after {
+    background: linear-gradient(180deg,
+      rgba(10, 11, 15, .35) 0%,
+      rgba(10, 11, 15, .66) 46%,
+      rgba(10, 11, 15, .96) 100%);
+  }
+  .worship-bg { object-position: center 24%; }
+  .worship-content { max-width: none; }
 }
 
 @media (max-width: 560px) {
