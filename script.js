@@ -32,8 +32,8 @@ const data = {
     {
       name: "Ricardo Daglio",
       image: "ricardo-daglio.jpeg",
-      focus: "Revitalización y plantación",
-      bio: "Pastor con amplia trayectoria en Uruguay y Argentina, y miembro del consejo pastoral de ASP. Sirve en la Iglesia Bíblica Villa Regina y en la plantación de una nueva iglesia en General Roca."
+      focus: "Revitalización e iglesia local",
+      bio: "Pastor con amplia trayectoria en Uruguay y Argentina, y miembro del consejo pastoral de ASP. Sirve en la Iglesia Bíblica Villa Regina y en la Iglesia Bíblica de General Roca."
     },
     {
       name: "Osvaldo Fuentes",
