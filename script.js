@@ -21,7 +21,7 @@ const data = {
       name: "Dardo Leandi",
       image: "dardo-leandi.jpg",
       focus: "Iglesia local y sana doctrina",
-      bio: "Pastor de la Iglesia Bautista Misionera de C.A.B.A. y miembro del consejo pastoral de ASP. Sirve en la promoción de la sana doctrina y la edificación de iglesias locales."
+      bio: "Pastor de la Iglesia Bautista Misionera de C.A.B.A. y miembro del consejo pastoral de ASP."
     },
     {
       name: "Samuel E. Masters",
