@@ -624,6 +624,7 @@ em { font-style: italic; }
   letter-spacing: -0.02em;
 }
 .block-head h2 em { color: var(--amber); font-weight: 800; font-style: normal; }
+.section-label-title { font-size: clamp(1.1rem, 2vw, 1.4rem) !important; letter-spacing: .06em; font-weight: 700; text-transform: uppercase; color: var(--muted); }
 .block-intro {
   max-width: 62ch;
   margin: 20px 0 0;
