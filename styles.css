@@ -265,6 +265,7 @@ em { font-style: italic; }
 .site-nav > a:not(.nav-cta):focus-visible::after { transform: scaleX(1); }
 
 .nav-cta { text-transform: none; }
+.nav-cta:hover { color: #1a1206; }
 
 .nav-toggle {
   display: none;
