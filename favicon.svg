@@ -1,0 +1,16 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Por el Poder del Espíritu Santo">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="80%">
+      <stop offset="0" stop-color="#23242c"/>
+      <stop offset="1" stop-color="#0f1014"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd36b"/>
+      <stop offset="0.5" stop-color="#f6a823"/>
+      <stop offset="1" stop-color="#c9791a"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7.5" fill="url(#bg)"/>
+  <path fill="url(#flame)" d="M17.1 4.2c.2 4 3.9 5.6 4.4 10 .4 3.5-1.2 6.3-3.6 7.9.7-1.4.8-3 .2-4.4-1.2 3.7-4.6 5-4.6 8.8 0 .2 0 .4.1.6-2.7-.8-4.8-3.3-4.8-6.4 0-2.6 1.3-4.3 2.4-5.6 0 1.3.4 2.3 1.2 2.9.5-3.4-1.7-5.6-.4-9 .8-2 2.4-3.6 4.7-4.8z"/>
+  <path fill="#fff3d6" opacity=".55" d="M16.2 13.6c.5 2 2.1 3 2.3 5.2.2 2-.9 3.7-2.4 4.6.4-1 .3-1.9-.2-2.7-.7 1.9-2.3 2.6-2.3 4.5-1.2-.6-1.9-1.9-1.9-3.3 0-1.5 1-2.6 1.7-3.2-.1.7.1 1.3.5 1.6.2-1.8-.8-2.9-.1-4.6.3-.8.9-1.5 1.6-2z"/>
+</svg>
