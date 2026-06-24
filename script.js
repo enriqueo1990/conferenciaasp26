@@ -133,7 +133,6 @@ function renderSpeakers() {
       </div>
       <div class="speaker-body">
         <h3>${s.name}</h3>
-        <p class="speaker-focus">${s.focus}</p>
         <p class="speaker-bio">${s.bio}</p>
       </div>`;
     root.append(card);
