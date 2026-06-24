@@ -715,7 +715,7 @@ em { font-style: italic; }
 }
 .speaker-photo {
   position: relative;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   background: #0c0d11;
 }
