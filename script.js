@@ -80,7 +80,7 @@ const data = {
         {
           time: "11:00",
           type: "Alabanza · Plenaria 4",
-          title: "El poder del Espíritu Santo en el evangelismo",
+          title: "La llenura del Espíritu",
           speaker: "Pr. Dardo Leandi",
           notes: "Alabanza: 2 canciones"
         },
